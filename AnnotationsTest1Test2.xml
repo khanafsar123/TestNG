@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/camro/IdeaProjects/TestNG/src/test/java/class04/TestAnnotation.java">
+        <classes>
+            <class name="class04.TestAnnotation"/>
+            <class name="class04.Test1"></class>
+            <class name="class04.Test2"></class>
+            
+        </classes>
+    </test>
+
+    <test name="Test 02">
+        <classes>
+
+
+            <class name="class04.TestAnnotation"/>
+            <class name="class04.Test1"></class>
+            <class name="class04.Test2"></class>
+
+        </classes>
+
+
+
+    </test>
+</suite>

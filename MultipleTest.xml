@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/camro/IdeaProjects/TestNG/src/test/java">
+        <classes>
+            <class name="class01.TestCase">
+                <methods>
+                    <include name="LoginFunctionality"/>
+                    <include name="PsswordBoxVerification"/>
+                </methods>
+            </class>
+            <class name="class01.TestNGAnnotations">
+                <methods>
+                    <include name="firstTestCase"/>
+                    <include name="secondTestCase"/>
+                    <include name="thirdTestCase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Test02">
+        <classes>
+
+            <class name="class02HardAssertions.HardAssertions">
+                <methods>
+                    <include name="invalidCredentials"/>
+                </methods>
+            </class>
+            <class name="class02HardAssertions.SoftAssertions">
+                <methods>
+                    <include name="invalidCredentials"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
